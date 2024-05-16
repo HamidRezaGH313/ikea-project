@@ -1,0 +1,539 @@
+.personaclick-recommend.personaclick-recommend-rendered {
+        position: relative;
+    }
+
+    .personaclick-recommend {
+        margin-bottom: 40px;
+    }
+
+    .personaclick-recommend h2.recommender-block-title {
+        margin: 20px 0;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box {
+        margin: 0 0 25px;
+        overflow: hidden;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel {
+        overflow: hidden;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li {
+        width: 321px;
+        position: relative;
+        padding: 0 5px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img {
+        position: relative;
+        padding-top: 48px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a:hover {
+        text-decoration: none;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li img {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span {
+        display: block;
+        padding: 0;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img .img-hover {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        transform-origin: center;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li:hover .pc-pub-carousel-img .img-hover {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span {
+        display: block;
+        padding: 0;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span span {
+        display: block;
+    }
+
+    /*.personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img .img-hover .favorite-add-btn {
+        position: absolute;
+        right: 15px;
+        top: -40px;
+        color: #929292;
+    }*/
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .favorite-add-btn {
+        color: #929292;
+        z-index: 20;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        left: 15px;
+        bottom: 0;
+        top: 20px;
+        display: block;
+        width: 24px;
+        float: left;
+    }
+
+    /*.personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img .img-hover .favorite-add-btn:hover {
+        color: #484848;
+    }*/
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .favorite-add-btn:hover {
+        color: #484848;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li:hover .favorite-add-btn {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /*.personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img .img-hover .favorite-add-btn:before {
+        content: "";
+        font-family: "icomoon";
+        font-size: 2rem;
+    }*/
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .favorite-add-btn:before {
+        /*content: "";*/
+        font-family: "icomoon";
+        font-size: 2rem;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span.title {
+        color: #000;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li:hover .title {
+        text-decoration: underline;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span.desc {
+        color: #484848;
+        font-weight: 300;
+        font-size: 1.4rem;
+        margin-top: 5px;
+    }
+    
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel .pc-energy-badge {
+       margin-left: 5px;
+       width: 60px;
+       /*height: 56px;*/
+       /*transform: translateY(-22%);*/
+    }
+
+    .personaclick-recommend .price {
+        display: inline-block;
+        overflow: hidden;
+        margin-bottom: 10px;
+        line-height: 1;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span {
+        display: block;
+        padding: 0;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span.price {
+        font-size: 2rem;
+        color: #000;
+        font-weight: 700;
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span.cross-price {
+        font-size: 1.4rem;
+        color: #484848;
+        position: relative;
+        font-weight: normal;
+        display: table;
+        margin-bottom: -8px;
+        text-decoration: line-through;
+    }
+
+    .personaclick-recommend .price span {
+        /*font-size: 2.4rem;*/
+        font-size: inherit;
+        color: #242424;
+        font-weight: bold;
+        position: relative;
+        line-height: 1;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span span.tl {
+        display: inline-block;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span.price u {
+        text-decoration: none;
+    }
+
+    .personaclick-recommend .basket-add {
+        width: 40px;
+        height: 40px;
+        background-color: #0058a3;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        border-radius: 100%;
+        font-size: 2.6rem;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        transform-origin: center;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-item .basket-add--loading {
+        pointer-events: none;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-item .basket-add.icon-check01 {
+        font-size: 1.6rem;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-item .mini-basket-btn.icon-check01:before {
+        line-height: unset !important;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-item .basket-add--loading.icon-basket-new:before {
+        content: unset;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-item .basket-add--loading span.loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -160%);
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: #fff;
+        border-radius: 64px;
+        -webkit-animation: pip-btn-loader .7s infinite;
+        animation: pip-btn-loader .7s infinite;
+        text-indent: -9999px;
+        overflow: hidden;
+        transition-property: opacity, transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(.4, 0, .4, 1);
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .basket-add {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        background-color: #0058a3;
+        bottom: 0;
+        border-radius: 100%;
+        font-size: 2.6rem;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        transform-origin: center;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        position: relative;
+        left: 0;
+        float: left;
+    }
+
+    .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li:hover .basket-add {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .personaclick-recommend .mini-basket-btn {
+        font-size: 0 !important;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li a span {
+        display: block;
+        padding: 0;
+    }
+
+    .personaclick-recommend .swiper-button-next,
+    .personaclick-recommend .swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        width: calc(var(--swiper-navigation-size)/ 44 * 27);
+        height: var(--swiper-navigation-size);
+        margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    }
+
+    .personaclick-recommend .swiper-button-prev,
+    .personaclick-recommend .swiper-rtl .swiper-button-next {
+        left: 10px;
+        right: auto;
+    }
+
+    .personaclick-recommend .swiper-button-next,
+    .personaclick-recommend .swiper-button-prev {
+        background-color: #111;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        position: absolute;
+        left: 40px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 36px;
+        font-size: 2.4rem;
+        z-index: 20;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        transform-origin: center;
+        border: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        text-indent: -9000px;
+        opacity: 0;
+        visibility: hidden;
+        -moz-transition: all all .3s ease ease;
+        -o-transition: all all .3s ease ease;
+        -webkit-transition: all all .3s ease ease;
+        transition: all all .3s ease ease;
+    }
+
+    .personaclick-recommend .swiper-button-prev:not(.swiper-button-disabled),
+    .personaclick-recommend .swiper-button-next:not(.swiper-button-disabled) {
+        opacity: 1;
+    }
+    
+    .personaclick-recommend .swiper-button.swiper-button-disabled{
+        display: none;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .swiper-button {
+        background-color: #111;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        position: absolute;
+        top: -35px;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 40px;
+        font-size: 2.4rem;
+        z-index: 20;
+        opacity: 0;
+        visibility: hidden;
+        -moz-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        transform-origin: center;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .swiper-button-prev {
+        left: -18px;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper:hover .swiper-button {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .personaclick-recommend .swiper-button-next,
+    .personaclick-recommend .swiper-rtl .swiper-button-prev {
+        right: 10px;
+        left: auto;
+    }
+
+    .personaclick-recommend .swiper-button-next:before,
+    .personaclick-recommend .swiper-button-prev:before {
+        content: "";
+        font-family: "icomoon";
+        color: #fff;
+        text-shadow: 0 2px 10px rgb(36 36 36 / 50%);
+        position: relative;
+        top: -1px;
+        text-indent: 0;
+    }
+
+    .personaclick-recommend .swiper-button-prev:before {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .swiper-button-prev::before {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        display: block;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .swiper-button::before {
+        content: "";
+        font-family: "icomoon";
+        color: #fff;
+    }
+
+    .personaclick-recommend .swiper-button-next {
+        left: auto;
+        right: -18px;
+    }
+
+    .personaclick-recommend .pub-carousel-wrapper .swiper-button-next {
+        right: -18px;
+    }
+
+    .personaclick-recommend .swiper-scrollbar {
+        border-radius: 10px;
+        position: relative;
+        -ms-touch-action: none;
+        background: rgba(0, 0, 0, .1);
+    }
+
+    .personaclick-recommend .swiper-scrollbar {
+        height: 24px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .personaclick-recommend .swiper-scrollbar:before {
+        content: "";
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .1);
+        border-radius: 4px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .personaclick-recommend .swiper-scrollbar:hover:before {
+        height: 4px;
+    }
+
+    .personaclick-recommend .swiper-scrollbar:hover .swiper-scrollbar-drag {
+        height: 4px;
+    }
+
+    .personaclick-recommend .swiper-scrollbar-drag {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+        left: 0;
+        top: 0;
+    }
+
+    .personaclick-recommend .swiper-scrollbar-drag {
+        height: 2px;
+        background: #111;
+        border-radius: 4px;
+        cursor: pointer;
+        cursor: grab;
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .is-logo,
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .isLogo {
+        height: 30px;
+        /*display: none;  logo linkleri düzeltilince block yapılacak */
+    }
+
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .is-logo img,
+    .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .isLogo img {
+        max-width: 120px;
+        max-height: 30px;
+        height: auto;
+        width: auto;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .pc-pub-carousel-img {
+            padding-top: 30px;
+        }
+
+        .personaclick-recommend .pub-carousel-wrapper .swiper-button {
+            display: none;
+        }
+
+        .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .basket-add {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box .pc-pub-carousel ul li .favorite-add-btn {
+            opacity: 1;
+            visibility: visible;
+            /*top: 0.5rem;*/
+            top: 20px;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .personaclick-recommend .pc-pub-carousel-wrapper .pc-pub-carousel-box {
+            margin-bottom: 10px;
+        }
+    }
