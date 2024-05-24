@@ -69,6 +69,23 @@ import image17 from '../../Images/solviden-aluminyum-ledli-gunes-enerjili-yer-la
 import image18 from '../../Images/broggan-koleksiyonu.webp';
 
 
+
+import service1 from '../../Images/anasayfa-hizmetler-magazadan-teslimat.webp'
+import service2 from '../../Images/anasayfa-hizmetler-montaj.webp'
+import service3 from '../../Images/anasayfa-hizmetler-planlayicilar.webp'
+import service4 from '../../Images/anasayfa-hizmetler-iptal-iade.webp'
+import service5 from '../../Images/anasayfa-hizmetler-odeme-secenekleri.webp'
+import service6 from '../../Images/anasayfa-hizmetler-hediye-kart.webp'
+import service7 from '../../Images/anasayfa-hizmetler-nakliye.webp'
+import service8 from '../../Images/anasayfa-hizmetler-mutfak-olcum.webp'
+import service9 from '../../Images/anasayfa-hizmetler-dikis.webp'
+import service10 from '../../Images/anasayfa-hizmetler-urun-toplama.webp'
+import service11 from '../../Images/anasayfa-hizmetler-yedek-parca.webp'
+
+import green from '../../Images/ana-sayfa-surdurulebilirlik-EN.webp'
+import pink from '../../Images/ana-sayfa-sosyal-sorumluluk-EN.webp'
+import orange from '../../Images/ana-sayfa-evde-guvenlik-EN.webp'
+import gray from '../../Images/ana-sayfa-onemli-bilgilendirme-EN.webp'
 import "../../css/swiper.min.css";
 import "../../css/magiclick.ikea.min.css";
 const NewHome = () => {
@@ -3917,14 +3934,13 @@ className="text-white text-4xl"
               </Swiper>
 
 
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم{" "}
             <div class="row shoppable-image">
               <div class="col-xs-12 col-sm-3">
                 <div class="image-parent">
                   <span>
                     <a href="https://www.ikea.com.tr/en/ideas/sustainability-small-changes-big-impacts">
                       <img
-                        // src={image9}
+                        src={green}
                         // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-surdurulebilirlik-EN.jpg"
                         id="ix60wfs"
                         data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-surdurulebilirlik-EN.jpg"
@@ -3940,7 +3956,7 @@ className="text-white text-4xl"
                   <span>
                     <a href="https://www.ikea.com.tr/en/social-responsibility-projects">
                       <img
-                        // src={image9}
+                        src={pink}
                         // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-sosyal-sorumluluk-EN.jpg"
                         id="ie5d5px"
                         data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-sosyal-sorumluluk-EN.jpg"
@@ -3957,7 +3973,7 @@ className="text-white text-4xl"
                     <a href="https://www.ikea.com.tr/en/safety-at-home">
                       <img
                         // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-evde-guvenlik-EN.jpg"
-                        // src={image9}
+                        src={orange}
                         id="i8hmwfe"
                         data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-evde-guvenlik-EN.jpg"
                         alt="IKEA-ana sayfa evde guvenlik EN"
@@ -3972,7 +3988,7 @@ className="text-white text-4xl"
                   <span>
                     <a href="https://www.ikea.com.tr/en/ikea-important-notice">
                       <img
-                        // src={image9}
+                        src={gray}
                         // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-onemli-bilgilendirme-EN.jpg"
                         id="iqhdx2k"
                         data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/ana-sayfa-onemli-bilgilendirme-EN.jpg"
@@ -3984,407 +4000,325 @@ className="text-white text-4xl"
                 </div>
               </div>
             </div>{" "}
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم{" "}
             <div class="shoppable-info-container">
-              <h2>لورم ایپسوم متن ساختگی</h2>
+              <h2>خدمات</h2>
             </div>
-            <div class="pub-carousel-wrapper shop-products">
-              <div class="pub-carousel-inner">
-                <div class="pub-carousel-box">
-                  <div class="pub-carousel swiper-container info-carousel swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode">
-                    <ul
-                      class="swiper-wrapper"
-                      id="swiper-wrapper-8c6a93a54b11e8a2"
-                      aria-live="polite"
-                      style={{ transform: "translate3d(0px, 0px, 0px)" }}
+            <Swiper
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                  },
+                  1024: {
+                    slidesPerView: 4.5,
+                    spaceBetween: 10,
+                  },
+                }}
+                scrollbar={{ draggable: true }}
+                // pagination={{ clickable: true }}
+                modules={[FreeMode, Pagination, Autoplay, Scrollbar]}
+                className=" lg:max-w-[100%]  flex items-center justify-center"
+              >
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service1}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    className="relative"
+                    // class="img-responsive gjs-hovered relative"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                  {/* <span
+                    id="i3b7j"
+                    data-gjs-type="default"
+                    draggable="true"
+                    class="pub-btn-small"
+                  >
+                    <span
+                      id="ijnd7"
+                      data-gjs-type="default"
+                      draggable="true"
+                      class="pub-btn-inner absolute text-white"
                     >
-                      <li
-                        id="ian1h-2"
-                        role="group"
-                        aria-label="1 / 11"
-                        class="swiper-slide swiper-slide-active"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="io0wf-2"
-                          href="https://www.ikea.com.tr/en/click-collect"
-                        >
-                          <span
-                            id="ih2bv-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="iuoii-2"
-                              // src={image9}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-magazadan-teslimat.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-magazadan-teslimat.jpg"
-                              alt="IKEA-anasayfa hizmetler magazadan teslimat"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="iom0g-2" class="pub-btn-small">
-                            <span id="imnt5-2" class="pub-btn-inner">
-                              <span id="ifhds-2">Click and Collect</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="ic7bp-2"
-                        role="group"
-                        aria-label="2 / 11"
-                        class="swiper-slide swiper-slide-next"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="i4ep6-2"
-                          href="https://www.ikea.com.tr/en/assembly-service"
-                        >
-                          <span
-                            id="isn1w-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="izcbp-2"
-                              // src={image9}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-montaj.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-montaj.jpg"
-                              alt="IKEA-anasayfa hizmetler montaj"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="i4u4o-2" class="pub-btn-small">
-                            <span id="ioj2h-2" class="pub-btn-inner">
-                              <span id="ijob4-2">Assembly Service</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="iwfpj-2"
-                        role="group"
-                        aria-label="3 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="i4jr7-2"
-                          href="https://www.ikea.com.tr/en/planners"
-                        >
-                          <span
-                            id="ig139-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="ix7qq-2"
-                              // src={image9}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-planlayicilar.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-planlayicilar.jpg"
-                              alt="IKEA-anasayfa hizmetler planlayicilar"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="iqlyl-2" class="pub-btn-small">
-                            <span id="i305o-2" class="pub-btn-inner">
-                              <span id="il7vz-2">Planners</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="ipff14r"
-                        role="group"
-                        aria-label="4 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="i9f8i3m"
-                          href="https://www.ikea.com.tr/en/shop-online/order-change-refund"
-                        >
-                          <span
-                            id="i2px4qk"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="i5daffl"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-iptal-iade.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-iptal-iade.jpg"
-                              alt="IKEA-anasayfa hizmetler iptal iade"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="icyhpba" class="pub-btn-small">
-                            <span id="ivlm0f2" class="pub-btn-inner">
-                              <span id="injy3r2">Cancel &amp; Refund</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="igr7k-2"
-                        role="group"
-                        aria-label="5 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="inzfl-2"
-                          href="https://www.ikea.com.tr/en/payment-options"
-                        >
-                          <span
-                            id="iq3oq-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="idsfc-2"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-odeme-secenekleri.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-odeme-secenekleri.jpg"
-                              alt="IKEA-anasayfa hizmetler odeme secenekleri"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="iwprf-2" class="pub-btn-small">
-                            <span id="i6lkg-2" class="pub-btn-inner">
-                              <span id="i017l-2">Payment Options</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="imo61-2"
-                        role="group"
-                        aria-label="6 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="i5t41-2"
-                          href="https://www.ikea.com.tr/en/gift-card"
-                        >
-                          <span
-                            id="iugd2-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="i6jle-2"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-hediye-kart.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-hediye-kart.jpg"
-                              alt="IKEA-anasayfa hizmetler hediye kart"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="ifuym-2" class="pub-btn-small">
-                            <span id="iz87i-2" class="pub-btn-inner">
-                              <span id="iam4e-2">
-                                Gift Card and Digital Coupon
-                              </span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="iduih-2"
-                        role="group"
-                        aria-label="7 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="ijpco-2"
-                          href="https://www.ikea.com.tr/en/delivery-service"
-                        >
-                          <span
-                            id="i23lm-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="i5gq8-2"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-nakliye.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-nakliye.jpg"
-                              alt="IKEA-anasayfa hizmetler nakliye"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="isy6f-2" class="pub-btn-small">
-                            <span id="ijwa1-2" class="pub-btn-inner">
-                              <span id="ioftm-2">Delivery Service</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="i1czf-2"
-                        role="group"
-                        aria-label="8 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="is92s-2"
-                          href="https://www.ikea.com.tr/en/kitchen-measurement"
-                        >
-                          <span
-                            id="ii1ey-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="iwe02-2"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-mutfak-olcum.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-mutfak-olcum.jpg"
-                              alt="IKEA-anasayfa hizmetler mutfak olcum"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="i8wii-2" class="pub-btn-small">
-                            <span id="i8y03-2" class="pub-btn-inner">
-                              <span id="ihzph-2">
-                                Kitchen Measurement Services
-                              </span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="ixg7aqv"
-                        role="group"
-                        aria-label="9 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="im5t742"
-                          href="https://www.ikea.com.tr/en/sewing-service"
-                        >
-                          <span
-                            id="icdkv9k"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="i4warns"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-dikis.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-dikis.jpg"
-                              alt="IKEA-anasayfa hizmetler dikis"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="i0amy5t" class="pub-btn-small">
-                            <span id="ie3ibft" class="pub-btn-inner">
-                              <span id="ir8go68">Sewing Service</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                      <li
-                        id="im3y6-2"
-                        role="group"
-                        aria-label="10 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="iqzkk-2"
-                          href="https://www.ikea.com.tr/en/picking-with-delivery"
-                        >
-                          <span
-                            id="itoup-2"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="i2bqq-2"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-urun-toplama.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-urun-toplama.jpg"
-                              alt="IKEA-anasayfa hizmetler urun toplama"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="i0viu-2" class="pub-btn-small" />
-                          <span id="i4qap-2" class="pub-btn-inner">
-                            <span id="ik1ot-2">Picking With Delivery</span>
-                          </span>
-                          {/* </span> */}
-                        </a>
-                      </li>
-                      <li
-                        id="iqetclk"
-                        role="group"
-                        aria-label="11 / 11"
-                        class="swiper-slide"
-                        style={{ marginRight: "10px" }}
-                      >
-                        <a
-                          id="i6oifwx"
-                          href="https://www.ikea.com.tr/en/spare-parts"
-                        >
-                          <span
-                            id="if781ku"
-                            class="pub-aspect-ratio-image pub-aspect-ratio-image-portrait"
-                          >
-                            <img
-                              id="iepc8yh"
-                              src={image1}
-                              // src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-yedek-parca.jpg"
-                              data-src="https://image-ikea.mncdn.com/ozgur-icerik/ana-sayfa/hizmetler/anasayfa-hizmetler-yedek-parca.jpg"
-                              alt="IKEA-anasayfa hizmetler yedek parca"
-                              class="img-responsive"
-                            />
-                          </span>
-                          <span id="i3x0ogd" class="pub-btn-small">
-                            <span id="il380rl" class="pub-btn-inner">
-                              <span id="ib5of8w">Spare Parts</span>
-                            </span>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                    <span
-                      aria-live="assertive"
-                      aria-atomic="true"
-                      class="swiper-notification"
-                    ></span>
-                    <span
-                      class="swiper-notification"
-                      aria-live="assertive"
-                      aria-atomic="true"
-                    ></span>
-                  </div>
-                </div>
-                <div
-                  class="swiper-button swiper-button-prev swiper-button-disabled"
-                  tabindex="-1"
-                  role="button"
-                  aria-label="Previous slide"
-                  aria-controls="swiper-wrapper-8c6a93a54b11e8a2"
-                  aria-disabled="true"
-                ></div>
-                <div
-                  class="swiper-button swiper-button-next"
-                  tabindex="0"
-                  role="button"
-                  aria-label="Next slide"
-                  aria-controls="swiper-wrapper-8c6a93a54b11e8a2"
-                  aria-disabled="false"
-                ></div>
-                <div class="swiper-scrollbar">
-                  <div
-                    class="swiper-scrollbar-drag"
-                    style={{
-                      transform: "translate3d(0px, 0px, 0px)",
-                      width: "495.087px",
-                    }}
-                  ></div>
-                </div>
-              </div>
-            </div>{" "}
+                      <span id="iv5wb" data-gjs-type="text" draggable="true">
+                        Furniture
+                      </span>
+                    </span>
+                  </span> */}
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service2}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    // class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service3}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service4}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service5}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service6}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service7}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service8}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service9}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service10}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+                <SwiperSlide
+                  style={{
+                    borderRadius: "50%",
+                    padding: "5px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <img
+                    id="i8ryv"
+                    data-gjs-type="bs-image"
+                    draggable="true"
+                    src={service11}
+                    // src="./Best Sellers _ IKEA_files/mobilyalar.jpg"
+                    data-src="https://cdn.ikea.com.tr/ozgur-icerik/cok-satanlar/mobilyalar.jpg"
+                    alt="IKEA-mobilyalar"
+                    data-mobil-src=""
+                    class="img-responsive gjs-hovered"
+                  />
+                  <span className="absolute z-50 mt-80 rounded-full p-5 text-center font-bold font-vazir bg-white w-[50%]">
+                    لورم ایپسوم متن
+                  </span>
+                </SwiperSlide>
+
+              
+              </Swiper>
            
-            لورم ایپسوم متن ساختگی{" "}
             <style>
               {/* @media (max-width: 400px) {
   #i0x2dl {

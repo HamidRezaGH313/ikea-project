@@ -28,7 +28,11 @@ const Products = () => {
       <div class="subpage-content subpage-content-pt font-vazir">
         <div class="container-fluid">
           { location.pathname === "/products/everyday-essentials" ||
-          location.pathname === "/products/bestsellers"|| location.pathname==='/products/allaccessories' ? (
+            location.pathname === "/products/bestsellers" ||
+            location.pathname === '/products/allaccessories' ||
+            location.pathname === '/products/newproducts' || 
+            location.pathname === '/products/lowestprice' ||
+            location.pathname === '/products/collections'? (
             <>
               <Outlet />
             </>

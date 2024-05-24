@@ -2027,7 +2027,7 @@ const AccessoriesModels = () => {
                         <a
                           // id="igf27j"
                           data-onclick="shopping.addCartItem(&#39;50510810&#39;, false);"
-                          href="javascript:;"
+                          href="javascript"
                           className="btn"
                           // class="btn btn-basket"
                           onclick="shopping.addCartItem(&#39;50510810&#39;, false);"
